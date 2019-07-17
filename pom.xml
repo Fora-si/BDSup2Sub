@@ -15,6 +15,13 @@
         <timestamp>${maven.build.timestamp}</timestamp>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+         
+    <repositories>
+        <repository>
+            <id>macify</id>
+            <url>https://mvnrepository.com</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
